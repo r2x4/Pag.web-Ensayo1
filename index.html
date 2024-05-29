@@ -1,1 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Continuacion TECH</title>
+    
+    <!--<style>
+                    .rojo {
+                        color: #c1121f;
+                        font-weight: bold;
+                    }
+                    color
 
+            </style>-->
+
+    
+</head>
+<h1 align = "center"> COLOMBIA </h1>
+<div style="background-color: green; color: yellow;padding: 20px">
+    <p>Buenos dias</p>
+    <p>Este es un parrafo</p>
+    <br/>
+    <p> <img src="Imagenes/Imagen-2.avif" width="50px" heigth="40px" border="3px"> </img></p>
+   
+</div>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="formulario"> formulario </a></li>
+            <li><a href="#verimg"> Imagen-1</a></li>
+            <li><a href="#verimg-2">Imagen-2</a></li>
+            <li><a href="#articulo"> Articulo</a></li>
+            <li><a href="#aside"> aside</a></li>
+            <li><a href="#audio"> Audio</a></li>
+            <li><a href="#video"> Video</a></li>
+
+        </ul>
+    </nav>
+
+
+<!--<p>Texto inicial <span class="rojo" id="cambiar"> en color rojo </span> oracion  </p>
+
+       <script>
+                document.getElementById("cambiar").addEventListener( 'click', function() { this.style.color = "red"; });
+        </script>-->
+        
+        <section id="formulario">
+        
+    <form action="/login/auth" method="post">
+        <!--form action="/login/auth" method="get" "envio datos bakent una forma"-->
+        <label  class ="rojo" for="usuario" >Usuario:</label>
+        <!--<label  style for="usuario" >Usuario:</label>-->
+        <input type="text" id="usuario" name=" usuario" placeholder="Informacion Usuario" required></br></br>
+        <label for="email"> Correo</label>
+        <input type="email" id="email" name="name" placeholder="Informacion email" required></br></br>
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password"></br></br>
+        <label for="msg">Mensaje</label>
+        <textarea name="mgs" id="mgs" rows="4" cols="50"></textarea></br></br>
+        
+        <label for="genero">Genero</label></br></br>
+        <input type="radio" name="Genero" value="M"> Masculino <br>
+        <input type="radio" name="Genero" value="F"> Femenino <br>
+
+        <input type="submit" value="Enviar"></br></br>
+
+        </form></br></br>
+
+        <label for="msg">Mensaje</label>
+        <textarea name="mgs" id="mgs" rows="4" cols="50"></textarea></br></br>
+    <form>
+        
+    </form>
+    <form>
+        <label for="tipide">Identificacion</label><br>
+        <input type="radio" name="tipide" value="CC">Cedula de Ciudadania <br>
+        <input type="radio" name="tipide" value="CE">Cedula de Extranjeria <br>
+        <input type="radio" name="tipide" value="TI">Tarjeta de Identidad <br>
+        <input type="radio" name="tipide" value="NUIP">Numero Unico de Identificacion <br>
+        <input type="radio" name="tipide" value="PA">Pasaporte <br></br></br>
+        <label for="numero de Documento">Numero de Documento</label>
+        <input type="number" id="number" name="number" max="12" placeholder="Numero de Identificacion" required ></br></br>
+        <input type="submit" value="Enviar"></br></br>
+    
+
+        <label for="pasatiempos">Pasatiempos</label><br>
+        <input type="checkbox" name="pasatiempos" value="T">Trotar <br>   
+        <input type="checkbox" name="pasatiempos" value="C">Correr <br> 
+        <input type="checkbox" name="pasatiempos" value="N">Nadar <br> 
+        <input type="checkbox" name="pasatiempos" value="D">Dormir <br> 
+        <input type="checkbox" name="pasatiempos" value="L">Leer <br> </br></br>
+    </form></br></br>
+    <a href="#"> Inicio </a>
+        </section>
+
+
+        <section id="verimg">
+            <p>Buenos dias </p>
+            <p class="rojo">Buenas Noches</p>
+            <p><img src="Imagenes/Samurai.jpg" width="50%" heigth="50%" border="2px" alt="pp"> </img></p>
+            <a href="#"> Inicio </a>
+
+        </section>
+        
+        <section id="verimg-2">
+            <p>Buenos dias </p>
+            <p class="rojo">Buenas Noches</p>
+            <p><img src="Imagenes/Imagen-2.jpg" width="50%" heigth="50%" border="2px" alt="pp"> </img></p>
+            <a href="#"> Inicio </a>
+
+        </section>
+        
+
+            <progress min="0" max="100" value="90"></progress>
+   
+        
+
+        <section id="busqueda">
+            <input type="search" id="ms"  name"si"  list="mi lista">
+            <details id="mi lista">
+            <option value="amarillo"></option>
+            <option value="azul"></option>
+            <option value="rojo"></option>
+            </details>
+
+        </section>
+
+        <section id="articulo">
+            <article class="rojo">
+                <p>Este es un articulo </p>
+                <a href="#"> Inicio </a>
+
+            </article>
+
+        </section >
+
+        <section id="aside">
+            <article class="rojo">
+                <p>Este es un articulo ejercicio aside</p>
+                <aside>colombia es el mejor pais</aside>
+                <a href="#"> Inicio </a>
+
+            </article>
+
+        </section >
+        <section id="audio">
+            <p>Ya no tengo Amor</p>
+            <audio src="Ya no tengo amor.mp3" controls=></audio><br>
+            <a href="#"> Inicio </a>
+
+        </section></br></br>
+
+    </section >
+    <section id="video">
+        <video controls width="640" height="360">
+        <p>Danza Kuduro</p>
+        <source src="Danza Kuduro.mp4" type="video/mp4"></video><br>
+        <a href="#"> Inicio </a>
+
+    </section>
+       
+       
+    
+
+    </form>
+</script>
+</body>
+</html>
